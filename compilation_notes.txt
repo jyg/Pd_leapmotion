@@ -1,0 +1,5 @@
+ligne de commande pour compiler :
+
+LDFLAGS='-L../leapmotion/LeapDeveloperKit_2.3.1/LeapSDK/lib/x64 -lLeap' CPLUS_INCLUDE_PATH=../leapmotion/LeapDeveloperKit_2.3.1/LeapSDK/include bash ../flext/build.sh pd gcc
+
+cf https://github.com/chikashimiyama/Pd_leapmotion/issues/1

@@ -205,9 +205,9 @@ public:
                 // normal
                 SETFLOAT(&handInfo[0], i);
                 SETSYMBOL(&handInfo[1], gensym("palm_normal"));
-                SETFLOAT(&handInfo[2], hand.palm_normal().x);
-                SETFLOAT(&handInfo[3], hand.palm_normal().y);
-                SETFLOAT(&handInfo[4], hand.palm_normal().z);
+                SETFLOAT(&handInfo[2], hand.palmNormal().x);
+                SETFLOAT(&handInfo[3], hand.palmNormal().y);
+                SETFLOAT(&handInfo[4], hand.palmNormal().z);
                 ToOutAnything(1, gensym("hand"), 5, handInfo);
             }
             if(hands_sphere_radius_flag){
